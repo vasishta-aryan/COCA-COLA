@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="index.html"
+          ><img src="./images/logo.png" class="logo" alt="CocaCola Logo"
+        /></a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="container">
+        <div class="form">
+          <div class="contact_info">
+            <h3 class="title">Let's Get in Touch</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus consectetur fuga corporis modi neque quis vitae
+            </p>
+            <div class="info">
+              <div class="information">
+                <img alt="" class="icon" src="images/logo.png" />
+                <p>92 Cherry Drive Uniondale, NY 11553</p>
+              </div>
+              <div class="information">
+                <img alt="" class="icon" src="images/logo.png" />
+                <p>92 Cherry Drive Uniondale, NY 11553</p>
+              </div>
+              <div class="information">
+                <img alt="" class="icon" src="images/logo.png" />
+                <p>123-456-789</p>
+              </div>
+            </div>
+            <div class="social_media">
+              <p>Contact With US:</p>
+              <div class="social_icon">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact_form">
+            <span class="circles one"></span>
+            <span class="circles two"></span>
+
+            <form action="index.html">
+              <h3 class="title">Contact Us</h3>
+              <div class="input_container">
+                <input type="text" name="name" class="input" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input_container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input_container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input_container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Submit" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="contact.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
